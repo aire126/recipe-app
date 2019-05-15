@@ -1,5 +1,5 @@
 .App {
-  min-height: 100vh;
+  min-height: 90vh;
   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
   color: black;
 }
@@ -8,14 +8,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  min-height: 10vh;
   background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
 }
 
 .jumbotron h1 {
   font-size: 100px;
   mix-blend-mode: difference;
-  color: white;
+  color: green;
 }
 
 .search-form{
